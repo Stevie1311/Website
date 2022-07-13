@@ -1,0 +1,114 @@
+/* font-family: 'Bree Serif' */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+
+
+
+body{
+        background-image: url("mainbackground.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-blend-mode: luminosity;
+}
+
+#nav {
+    background-color: none;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    border-style:none;
+    border-color: black;
+}
+
+#nav a{
+    color:white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#nav a:hover {
+    color: red;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.page1{
+    background-image: url("background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.welcome {
+    background-color: aqua;
+}
+
+.text {
+    color:white;
+    font-size: 30;
+    font-weight: bold;
+}
+
+.large {
+    font-size: 50px;
+}
+
+  /* Centre an image */
+.center {
+    display: flex;
+    flex-direction: center;
+    max-width:50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+/* Large buttons centred */
+.bsize{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    height: 90px;
+    width: 300px;
+    width: 50%;
+    font-size: 30px;
+}
+
+/* small buttons centred */
+.bsize1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    color: blue;
+    height: 30px;
+    width: 120px;
+    font-size: 12px;
+}
+
+.image {
+    display: flex;
+    width: 50;
+}
+
+.bcentre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid black
+  }
